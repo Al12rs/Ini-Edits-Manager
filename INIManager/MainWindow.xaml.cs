@@ -26,16 +26,5 @@ namespace INIManager
         {
             InitializeComponent();
         }
-
-        private void menuFileNew_Click( object sender, RoutedEventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
-                documentView.Text = File.ReadAllText(openFileDialog.FileName);
-        }
-        private void menuFileSelect_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
     }
 }

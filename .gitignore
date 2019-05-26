@@ -1,2 +1,5 @@
 /.vs/
 /INIManager/obj/
+/INIManager/bin/
+/INIManager/bin/Debug/
+/INIManager/bin/Release/
